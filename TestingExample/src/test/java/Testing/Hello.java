@@ -1,8 +1,9 @@
-
+package Testing;
+import org.testng.annotations.Test;
 
 public class Hello {
-
-	public static void main(String[] args) {
+@Test
+	public void mainMethod() {
 		// TODO Auto-generated method stub
 System.out.println("Hello");
 	}
